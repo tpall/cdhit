@@ -106,3 +106,4 @@ install:
 		install -m 0755 $$prog $(PREFIX); \
 	done
 	install -m 0755 *.pl $(PREFIX);
+	install -m 0755 psi-cd-hit/*.pl $(PREFIX);
